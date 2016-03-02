@@ -17,11 +17,24 @@ public class Edge {
     }
 
     @Override
-    public boolean equals(Object obj) {
-        if(this == obj) return true;
-        if(!(obj instanceof Edge)) return false;
-        Edge other = (Edge) obj;
-        return from.isSimilar(other.from) && to.isSimilar(other.to);
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Edge)) return false;
+
+        Edge edge = (Edge) o;
+
+        if (!from.equals(edge.from)) return false;
+        if (!to.equals(edge.to)) return false;
+        return weight.equals(edge.weight);
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = from.hashCode();
+        result = 31 * result + to.hashCode();
+        result = 31 * result + weight.hashCode();
+        return result;
     }
 
     public boolean isHeavier(Edge e){

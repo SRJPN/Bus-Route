@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.TestCase.assertTrue;
 
@@ -64,5 +65,22 @@ public class EdgeTest {
         Edge edge = new Edge(node, another,new Weight(2));
         Edge anotherEdge = new Edge(node, yetAnother, new Weight(4));
         assertFalse(edge.isHeavier(anotherEdge));
+    }
+
+    @Test
+    public void testhashCode_returns_hashCode_of_the_object_according_to_the_content() throws Exception {
+        Node node = new Node("node");
+        Node another = new Node("edon");
+        Edge edge = new Edge(node, another,new Weight(2));
+        assertEquals(806696414,edge.hashCode());
+    }
+
+    @Test
+    public void testhashCode_will_be_same_for_object_with_same_content() throws Exception {
+        Node node = new Node("node");
+        Node another = new Node("edon");
+        Edge edge = new Edge(node, another,new Weight(2));
+        Edge anotherEdge = new Edge(node, another,new Weight((2)));
+        assertEquals(edge.hashCode(),anotherEdge.hashCode());
     }
 }
