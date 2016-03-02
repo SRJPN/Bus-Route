@@ -1,5 +1,6 @@
 import org.junit.Test;
 
+import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.TestCase.assertTrue;
 
@@ -17,5 +18,11 @@ public class WeightTest {
         Weight lighter = new Weight(5);
         Weight heavier = new Weight(7);
         assertFalse(lighter.isHeavierThan(heavier));
+    }
+
+    @Test
+    public void testhashCode_returns_the_value_of_weight() throws Exception {
+        Weight weight = new Weight(5);
+        assertEquals(5,weight.hashCode());
     }
 }
