@@ -50,4 +50,29 @@ public class GraphTest {
         Graph another = new Graph(15);
         assertEquals(graph.hashCode(), another.hashCode());
     }
+
+    @Test
+    public void testAddEdgeTo_returns_true_and_adds_edge_to_node_present_in_graph() throws Exception {
+        Graph graph = new Graph(10);
+        graph.addNode("node");
+        graph.addNode("edon");
+        Weight weight = new Weight(1);
+        assertTrue(graph.addEdgeBetween("node", "edon", weight));
+    }
+
+    @Test
+    public void testAddEdgeTo_creates_a_new_edge_with_default_weight_if_weight_is_not_given() throws Exception {
+        Graph graph = new Graph(10);
+        graph.addNode("node");
+        graph.addNode("edon");
+        assertTrue(graph.addEdgeBetween("node", "edon"));
+    }
+
+    @Test
+    public void testAddEdgeTo_returns_false_if_it_couldnt_find_nodes_in_the_graph() throws Exception {
+        Graph graph = new Graph(10);
+        graph.addNode("node");
+        Weight weight = new Weight(1);
+        assertFalse(graph.addEdgeBetween("node", "edon", weight));
+    }
 }
