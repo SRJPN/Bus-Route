@@ -55,4 +55,17 @@ public class NodeTest {
             count++;
         }
     }
+
+    @Test
+    public void testhashCode_gives_hashCode_according_to_the_contents() throws Exception {
+        Node node = new Node("Node");
+        assertEquals(75440671,node.hashCode());
+    }
+
+    @Test
+    public void testhashCode_will_be_same_for_object_with_same_content() throws Exception {
+        Node node = new Node("Node");
+        Node another = new Node("Node");
+        assertEquals(node.hashCode(),another.hashCode());
+    }
 }

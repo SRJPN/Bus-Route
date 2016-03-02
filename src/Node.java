@@ -22,6 +22,22 @@ public class Node {
        return this.name.equals(other.name);
     }
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Node)) return false;
+
+        Node node = (Node) o;
+        return name.equals(node.name);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = name.hashCode();
+        result = 31 * result + edges.hashCode();
+        return result;
+    }
+
     public Iterator getAllEdges(){
         return this.edges.iterator();
     }
