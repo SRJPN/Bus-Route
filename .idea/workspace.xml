@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f669339-5b3b-411d-8a89-c3de74c2e423" name="Default" comment="" />
+    <list default="true" id="4f669339-5b3b-411d-8a89-c3de74c2e423" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/assginment-graph-busRoute/Edge.class" afterPath="$PROJECT_DIR$/out/production/assginment-graph-busRoute/Edge.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/assginment-graph-busRoute/Graph.class" afterPath="$PROJECT_DIR$/out/production/assginment-graph-busRoute/Graph.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/assginment-graph-busRoute/Node.class" afterPath="$PROJECT_DIR$/out/production/assginment-graph-busRoute/Node.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/assginment-graph-busRoute/Weight.class" afterPath="$PROJECT_DIR$/out/production/assginment-graph-busRoute/Weight.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/assginment-graph-busRoute/EdgeTest.class" afterPath="$PROJECT_DIR$/out/test/assginment-graph-busRoute/EdgeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/assginment-graph-busRoute/NodeTest.class" afterPath="$PROJECT_DIR$/out/test/assginment-graph-busRoute/NodeTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/assginment-graph-busRoute/WeightTest.class" afterPath="$PROJECT_DIR$/out/test/assginment-graph-busRoute/WeightTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="assginment-graph-busRoute.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -13,6 +22,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/assginment-graph-busRoute$All_in_assginment_graph_busRoute.coverage" NAME="All in assginment-graph-busRoute Coverage Results" MODIFIED="1456913969683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -26,46 +38,33 @@
         <entry file="file://$PROJECT_DIR$/src/Graph.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#188#189#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Edge.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Edge.java">
+      <file leaf-file-name="GraphTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/GraphTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.77024484">
+              <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HashSet.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+              <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Weight.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Weight.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-              <folding>
-                <element signature="e#154#155#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="WeightTest.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/WeightTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.82862526">
-              <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -74,9 +73,11 @@
         <entry file="file://$PROJECT_DIR$/src/Node.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#426#427#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -105,10 +106,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/graph.java" />
         <option value="$PROJECT_DIR$/src/Edge.java" />
-        <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/src/Weight.java" />
-        <option value="$PROJECT_DIR$/src/Graph.java" />
+        <option value="$PROJECT_DIR$/src/Node.java" />
         <option value="$PROJECT_DIR$/test/WeightTest.java" />
+        <option value="$PROJECT_DIR$/test/NodeTest.java" />
+        <option value="$PROJECT_DIR$/test/EdgeTest.java" />
+        <option value="$PROJECT_DIR$/src/Graph.java" />
+        <option value="$PROJECT_DIR$/test/GraphTest.java" />
       </list>
     </option>
   </component>
@@ -197,15 +201,15 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WeightTest">
-    <configuration default="false" name="WeightTest.testIsHeavierThan" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.All in assginment-graph-busRoute">
+    <configuration default="false" name="GraphTest.testAddNode_wont_add_a_previously_added_node" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="assginment-graph-busRoute" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WeightTest" />
-      <option name="METHOD_NAME" value="testIsHeavierThan" />
+      <option name="MAIN_CLASS_NAME" value="GraphTest" />
+      <option name="METHOD_NAME" value="testAddNode_wont_add_a_previously_added_node" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -219,14 +223,14 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="WeightTest.testIsHeavierThan_returns_false_if_weight_is_lighter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="GraphTest.testEquals_returns_false_for_graphs_with_different_capacity" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="assginment-graph-busRoute" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WeightTest" />
-      <option name="METHOD_NAME" value="testIsHeavierThan_returns_false_if_weight_is_lighter" />
+      <option name="MAIN_CLASS_NAME" value="GraphTest" />
+      <option name="METHOD_NAME" value="testEquals_returns_false_for_graphs_with_different_capacity" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -240,15 +244,57 @@
       <patterns />
       <method />
     </configuration>
-    <configuration default="false" name="WeightTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="All in assginment-graph-busRoute" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="assginment-graph-busRoute" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="WeightTest" />
+      <option name="MAIN_CLASS_NAME" />
       <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GraphTest.testHashCode_gives_same_hashCode_for_similar_Graphs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="assginment-graph-busRoute" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GraphTest" />
+      <option name="METHOD_NAME" value="testHashCode_gives_same_hashCode_for_similar_Graphs" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="GraphTest.testEquals_returns_false_for_different_graph" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="assginment-graph-busRoute" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="GraphTest" />
+      <option name="METHOD_NAME" value="testEquals_returns_false_for_different_graph" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -442,16 +488,20 @@
       <listeners />
       <method />
     </configuration>
-    <list size="3">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.WeightTest.testIsHeavierThan" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.WeightTest.testIsHeavierThan_returns_false_if_weight_is_lighter" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.WeightTest" />
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GraphTest.testAddNode_wont_add_a_previously_added_node" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GraphTest.testEquals_returns_false_for_graphs_with_different_capacity" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.All in assginment-graph-busRoute" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GraphTest.testHashCode_gives_same_hashCode_for_similar_Graphs" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest.testEquals_returns_false_for_different_graph" />
     </list>
     <recent_temporary>
-      <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.WeightTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.WeightTest.testIsHeavierThan_returns_false_if_weight_is_lighter" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.WeightTest.testIsHeavierThan" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.All in assginment-graph-busRoute" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GraphTest.testEquals_returns_false_for_different_graph" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GraphTest.testEquals_returns_false_for_graphs_with_different_capacity" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GraphTest.testAddNode_wont_add_a_previously_added_node" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GraphTest.testHashCode_gives_same_hashCode_for_similar_Graphs" />
       </list>
     </recent_temporary>
   </component>
@@ -466,16 +516,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="WeightTest_testIsHeavierThan - 2016.03.02 at 10h 48m 53s.xml">
-      <configuration name="WeightTest.testIsHeavierThan" configurationId="JUnit" />
+    <history-entry file="All_in_assginment-graph-busRoute - 2016.03.02 at 15h 45m 19s.xml">
+      <configuration name="All in assginment-graph-busRoute" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="WeightTest_testIsHeavierThan_returns_false_if_weight_is_lighter - 2016.03.02 at 10h 50m 49s.xml">
-      <configuration name="WeightTest.testIsHeavierThan_returns_false_if_weight_is_lighter" configurationId="JUnit" />
+    <history-entry file="All_in_assginment-graph-busRoute - 2016.03.02 at 15h 47m 06s.xml">
+      <configuration name="All in assginment-graph-busRoute" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_assginment-graph-busRoute - 2016.03.02 at 15h 47m 35s.xml">
+      <configuration name="All in assginment-graph-busRoute" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_assginment-graph-busRoute - 2016.03.02 at 15h 49m 24s.xml">
+      <configuration name="All in assginment-graph-busRoute" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_assginment-graph-busRoute - 2016.03.02 at 15h 49m 31s.xml">
+      <configuration name="All in assginment-graph-busRoute" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testAddNode_wont_add_a_previously_added_node - 2016.03.02 at 15h 49m 11s.xml">
+      <configuration name="GraphTest.testAddNode_wont_add_a_previously_added_node" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testEquals_returns_false_for_different_graph - 2016.03.02 at 15h 52m 07s.xml">
+      <configuration name="GraphTest.testEquals_returns_false_for_different_graph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testEquals_returns_false_for_graphs_with_different_capacity - 2016.03.02 at 15h 43m 13s.xml">
+      <configuration name="GraphTest.testEquals_returns_false_for_graphs_with_different_capacity" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testEquals_returns_true_for_similar_graph - 2016.03.02 at 15h 42m 37s.xml">
+      <configuration name="GraphTest.testEquals_returns_true_for_similar_graph" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="GraphTest_testHashCode_gives_same_hashCode_for_similar_Graphs - 2016.03.02 at 15h 48m 56s.xml">
+      <configuration name="GraphTest.testHashCode_gives_same_hashCode_for_similar_Graphs" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1680" height="951" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -484,10 +558,11 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32967034" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893157" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -518,8 +593,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -528,7 +603,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -539,6 +619,8 @@
           <folding>
             <element signature="e#154#155#0" expanded="true" />
             <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -549,6 +631,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -558,8 +642,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -568,7 +652,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
-          <folding />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -579,23 +668,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Graph.java">
+    <entry file="file://$PROJECT_DIR$/src/Weight.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#188#189#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#472#473#0" expanded="true" />
+            <element signature="e#501#502#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -603,26 +684,81 @@
     <entry file="file://$PROJECT_DIR$/src/Edge.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
-          <folding />
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#422#423#0" expanded="true" />
+            <element signature="e#984#985#0" expanded="true" />
+            <element signature="e#1042#1043#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Weight.java">
+    <entry file="file://$PROJECT_DIR$/test/NodeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="69" selection-end-column="5" />
           <folding>
-            <element signature="e#154#155#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/WeightTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.82862526">
-          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/EdgeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6760828">
+          <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/src.zip!/java/util/HashSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="88" column="13" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Node.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Graph.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/GraphTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.77024484">
+          <caret line="40" column="34" selection-start-line="40" selection-start-column="34" selection-end-line="40" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
