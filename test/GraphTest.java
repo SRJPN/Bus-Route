@@ -4,9 +4,6 @@ import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertFalse;
 import static junit.framework.TestCase.assertTrue;
 
-/**
- * Created by soorajp on 02/03/16.
- */
 public class GraphTest {
 
     @Test
@@ -74,5 +71,24 @@ public class GraphTest {
         graph.addNode("node");
         Weight weight = new Weight(1);
         assertFalse(graph.addEdgeBetween("node", "edon", weight));
+    }
+
+    @Test
+    public void testIsThereEdgeBetween_returns_true_if_there_is_a_real_edge_between_both_nodes() throws Exception {
+        Graph graph = new Graph(10);
+        graph.addNode("node");
+        graph.addNode("edon");
+        graph.addEdgeBetween("node", "edon");
+
+        assertTrue(graph.isThereEdgeBetween("node","edon"));
+    }
+
+    @Test
+    public void testIsThereEdgeBetween_returns_false_if_there_is_no_real_edge_between_both_nodes() throws Exception {
+        Graph graph = new Graph(10);
+        graph.addNode("node");
+        graph.addNode("edon");
+
+        assertFalse(graph.isThereEdgeBetween("node","edon"));
     }
 }

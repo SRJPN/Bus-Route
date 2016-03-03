@@ -37,6 +37,12 @@ public class Graph {
         return addEdgeBetween(from, to, weight);
     }
 
+    public boolean isThereEdgeBetween(String from, String to){
+        Node node = nodes.get(from);
+        Node another = nodes.get(to);
+        return node.hasEdgeWith(another);
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
