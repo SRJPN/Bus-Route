@@ -22,6 +22,13 @@ public class Node {
        return this.name.equals(other.name);
     }
 
+    public boolean hasEdgeWith(Node node){
+        for (Edge edge : edges)
+            if (edge.hasNode(node))
+                return true;
+        return false;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

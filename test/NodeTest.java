@@ -1,10 +1,12 @@
+import junit.framework.TestCase;
 import org.junit.Test;
 
 import java.util.Iterator;
 
-import static junit.framework.Assert.assertEquals;
-import static junit.framework.TestCase.assertFalse;
-import static junit.framework.TestCase.assertTrue;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
+
 
 public class NodeTest {
 
@@ -27,7 +29,7 @@ public class NodeTest {
         Node node = new Node("node");
         Node another = new Node("edon");
         Edge edge = new Edge(node, another);
-        assertTrue(node.addEdge(edge));
+        TestCase.assertTrue(node.addEdge(edge));
     }
 
     @Test
@@ -67,5 +69,21 @@ public class NodeTest {
         Node node = new Node("Node");
         Node another = new Node("Node");
         assertEquals(node.hashCode(),another.hashCode());
+    }
+
+    @Test
+    public void testHasEdgeWith_returns_true_if_the_node_has_edge_with_another_node() throws Exception {
+        Node node = new Node("Node");
+        Node another = new Node("Node");
+        Edge edge = new Edge(node, another);
+        node.addEdge(edge);
+        TestCase.assertTrue(node.hasEdgeWith(another));
+    }
+
+    @Test
+    public void testHasEdgeWith_returns_false_if_the_node_has_no_edge_with_another_node() throws Exception {
+        Node node = new Node("Node");
+        Node another = new Node("Node");
+        TestCase.assertFalse(node.hasEdgeWith(another));
     }
 }
